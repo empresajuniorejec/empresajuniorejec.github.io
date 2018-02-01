@@ -1,8 +1,18 @@
 <!doctype html>
 
-<html lang="en-US">
+<html lang="pt-BR">
 	<head>
-
+ <!--
+            <style type="text/css">
+                #externo {
+                   width: 300px;
+                   height: 300px;
+                   -webkit-align-content: center;
+                   align-content: center;
+                }
+                
+               </style>
+-->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="google-site-verification" content="UPH1zXOFp9FVr_7g8EKjn-slsh1x1bLkR8hLYUn67VE" />
@@ -12,7 +22,7 @@
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-                        <!-- Google Fonts  -->
+        <!-- Google Fonts  -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
 
@@ -22,20 +32,23 @@
 		<link rel="stylesheet" href="inc/font-awesome/font-awesome.min.css"> <!-- Font Icons -->
 		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
 		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
-                          <link rel="stylesheet" href="css/bootstrap.min.css">
-                          <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<!-- Theme CSS -->
-                        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/mobile.css">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
-                          <link rel="alternate stylesheet" media="screen" title="ice-blue" href="css/skin/ice-blue.css">
-                          <link rel="alternate stylesheet" media="screen" title="summer-orange" href="css/skin/summer-orange.css">
-                          <link rel="alternate stylesheet" media="screen" title="fresh-lime" href="css/skin/fresh-lime.css">
-                          <link rel="alternate stylesheet" media="screen" title="night-purple" href="css/skin/night-purple.css">
+        <link rel="alternate stylesheet" media="screen" title="ice-blue" href="css/skin/ice-blue.css">
+        <link rel="alternate stylesheet" media="screen" title="summer-orange" href="css/skin/summer-orange.css">
+        <link rel="alternate stylesheet" media="screen" title="fresh-lime" href="css/skin/fresh-lime.css">
+        <link rel="alternate stylesheet" media="screen" title="night-purple" href="css/skin/night-purple.css">
+
+        <link rel="shortcut icon" href="img/favicon.ico">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +61,7 @@
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
-        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+        <!--div class="page-loader"></div>   Display loading image while page loads -->
     	<div class="body">
 
             <!--========== BEGIN HEADER ==========-->
@@ -74,11 +87,10 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a class="page-scroll" href="body">Home</a></li>
-                            <li><a class="page-scroll" href="#about-section">Sobre Nós</a></li>
+                            <li><a class="" href="#about-section">Sobre Nós</a></li>
                             <li><a class="page-scroll" href="#services-section">Serviços</a></li>
-                            <!--li><a class="page-scroll" href="#portfolio-section">Projetos</a></li-->
+                            <li><a class="page-scroll" href="#portfolio-section">Projetos</a></li>
                             <li><a class="page-scroll" href="#team-section">Equipe</a></li>
-                            <!--li><a class="page-scroll" href="#prices-section">Preços</a></li-->
                             <li><a class="page-scroll" href="#contact-section">Contato</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -91,34 +103,13 @@
 
 
 
-
-        	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/slider-bg.jpg);">
-
-				<!--<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.7">
-
-						<div id="owl-intro-text" class="owl-carousel">
-							<div class="item">
-								<h1>We have Awesome things</h1>
-								<p>Let's make the web beautiful together</p>
-                                <div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
-							</div>
-							<div class="item">
-								<h1>Join with us</h1>
-								<p>To the greatest Journey</p>
-								<div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
-							</div>
-							<div class="item">
-								<h1>I'm Unika</h1>
-								<p>One Page Responsive Theme</p>
-								<div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
-							</div>
-						</div>
-
+            <!-- Edit Ramon: Style -->
+            <!-- Begin text carousel intro section -->
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/topo.jpg);">
+				<div class="caption text-center">
+	                
+                        <img src="img/logo-v2-default.png" width="270" height="270" align="center">
+                
 					</div> <!-- /.caption -->
 				<!--</div>  /.container -->
 
@@ -142,11 +133,13 @@
                 </div>
                 <!-- End page header-->
 
+                <!-- Edit Ramon: Align center left -->
+                <!-- Edit Ramon: "col-md-3 col-sm-6" to "col-md-4 col-sm" -->
                 <!-- Begin rotate box-1 -->
                 <div class="rotate-box-1-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
+                    <div class="container"> 
+                        <div class="row" align="center left">
+                            <div class="col-md-4 col-sm">
                                 <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
                                     <span class="rotate-box-icon"><i class="fa fa-book"></i></span>
                                     <div class="rotate-box-info">
@@ -156,7 +149,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-4 col-sm">
                                 <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
                                     <span class="rotate-box-icon"><i class="fa fa-eye"></i></span>
                                     <div class="rotate-box-info">
@@ -166,7 +159,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-4 col-sm">
                                 <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
                                     <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
                                     <div class="rotate-box-info">
@@ -176,16 +169,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
-                                    <span class="rotate-box-icon"><i class="fa fa-clock-o"></i></span>
-                                    <div class="rotate-box-info">
-                                        <h4>Compromisso</h4>
-                                        <p>Temos o compromisso de entregar serviços de qualidade, colaborando com nossos clientes para que possamos crescer juntos.</p>
-                                    </div>
-                                </a>
-                            </div>
-
+                            
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->
                 </div>
@@ -193,11 +177,9 @@
           </section>
           <!-- End about section -->
 
-
-
-
           <!-- Begin cta -->
-          <section id="cta-section">
+          <!-- Edit Ramon: Align center -->
+          <section id="cta-section" align="center">
           	<div class="cta">
             	<div class="container">
                 	<div class="row">
@@ -236,12 +218,51 @@
                 </div>
                 <!-- End page header-->
 
+                <!-- Edit Ramon: de "Desenvolvimento Web" pra "sites informativos" -->
+                <!-- Edit Ramon: Reordenação -->
+                <!-- Begin dev web section -->
+                <!-- div class="dev-web">
+                    <div class="container">
+                        <div class="row">
+                            <h3>Sites Informativos</h3>
+                            <div class="col-md-6 col-sm-6">
+                                <img src="img/web-dev-img.png" style="height: 380px;"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl. Sed convallis magna eu sem. Cras pede libero, dapibus nec, pretium sit amet, tempor quis, urna.</p>
+                            </div>
+                        </div>                     
+                    </div>
+                </div -->
+                <!-- End dev web section -->
+                
+                <!-- Edit Ramon: Título e texto "aplicativos" -->
                 <!-- Begin roatet box-2 -->
                 <div class="rotate-box-2-wrapper">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                    <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Aplicativos</h4>
+                                        <p>No mundo de hoje, a praticidade de ter seu serviço ao alcance dos smartphones é fundamental, seja para divulgação de produto, vendas, suporte ou ferramentas extras. Sendo assim disponibilizamos o melhor do desenvolvimento mobile para você se aproximar ainda mais de seus clientes.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                    <span class="rotate-box-icon"><i class="fa fa-microchip" aria-hidden="true"></i></span>
+                                    <div class="rotate-box-info">
+                                        <h4>Desenvolvimento de Pequenos Protótipos</h4>
+                                        <p>Você é empreendedor como a gente? Talvez possua uma ideia criativa mas necessita de conhecimentos tecnológicos que ainda não dispõe? Bom, nós somos uma empresa repleta de vontade para inovar, e preparados para isso, vamos lhe ajudar a aprimorar sua ideia, e transformar em realidade o que apenas estava no papel.</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
                                     <span class="rotate-box-icon"><i class="fa fa-pencil"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Dimensionamento de Equipamentos Computacionais</h4>
@@ -251,31 +272,11 @@
                             </div>
 
                             <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
                                     <span class="rotate-box-icon"><i class="fa fa-wifi"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Dimensionamento de Equipamento de Redes</h4>
                                         <p>As pessoas querem estar conectadas a todo momento e os estabelecimentos que disponibilizam conexão aos seus clientes têm um diferencial. No entanto, um diferencial ainda maior está na disponibilização a partir de checkin no Facebook, abrindo espaço para divulgação do estabelecimento entre os contatos dos clientes.</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
-                                    <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
-                                    <div class="rotate-box-info">
-                                        <h4>Desenvolvimento de Sites Comerciais e Aplicativos</h4>
-                                        <p>No mundo de hoje, estar conectado com seus clientes é fundamental para qualquer empresa, seja para divulgação de produto, vendas, suporte ou ferramentas extras. Sendo assim disponibilizamos o melhor do desenvolvimento web e mobile para você se aproximar ainda mais de seus clientes, entendendo quais são suas preferências através de dados coletados.</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
-                                    <span class="rotate-box-icon"><i class="fa fa-microchip" aria-hidden="true"></i></span>
-                                    <div class="rotate-box-info">
-                                        <h4>Desenvolvimento de Pequenos Protótipos</h4>
-                                        <p>Você é empreendedor como a gente? Talvez possua uma ideia criativa mas necessita de conhecimentos tecnológicos que ainda não dispõe? Bom, nós somos uma empresa repleta de vontade para inovar, e preparados para isso, vamos lhe ajudar a aprimorar sua ideia, e transformar em realidade o que apenas estava no papel.</p>
                                     </div>
                                 </a>
                             </div>
@@ -287,7 +288,7 @@
                         <!-- Cta Button -->
                         <div class="extra-space-l"></div>
                         <div class="text-center">
-                    		<!--a class="btn btn-default btn-lg-xl" href="http://www.imransdesign.com/" target="_blank" role="button">Saiba Mais</a-->
+                    		<!--a class="btn btn-default btn-lg-xl" href="..." target="_blank" role="button">Saiba Mais</a-->
                         </div>
                     </div> <!-- /.container -->
                 </div>
@@ -306,9 +307,6 @@
                     <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                                <!--h2></h2>
-                                <div class="devider"></div>
-                                <p class="subtitle">What people say about us</p-->
                             </div>
                         </div>
                     </div>
@@ -341,131 +339,69 @@
             </section>
             <!-- End testimonials -->
 
-
-
-
-            <!-- Begin Portfolio >
+            <!-- Begin Portfolio -->
             <section id="portfolio-section" class="page bg-style1">
-            	<div class="container">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="portfolio">
-                                <!-- Begin page header  fechar comentarios aqui>
+                                <!-- Begin page header  fechar comentarios aqui-->
                                 <div class="page-header-wrapper">
                                     <div class="container">
                                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                                             <h2>Nossos Projetos</h2>
                                             <div class="devider"></div>
-                                            <p class="subtitle">What we are proud of</p>
+                                            <p class="subtitle">Projetos que foram desenvolvidos por nossa empresa</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End page header fechar comentarios aqui>
-                                <div class="portfoloi_content_area" >
+                                <!-- End page header fechar comentarios aqui-->
+                                <div class="portfolio_content_area" >
                                     <div class="portfolio_menu" id="filters">
                                         <ul>
-                                            <li class="active_prot_menu"><a href="#porfolio_menu" data-filter="*">all</a></li>
-                                            <li><a href="#porfolio_menu" data-filter=".websites">websites</a></li>
-                                            <li><a href="#porfolio_menu" data-filter=".webDesign" >web design</a></li>
-                                            <li><a href="#porfolio_menu" data-filter=".appsDevelopment">apps development</a></li>
-                                            <li><a href="#porfolio_menu" data-filter=".GraphicDesign">graphic design</a></li>
-                                            <li><a href="#porfolio_menu" data-filter=".responsive">responsive</a></li>
+                                            <li class="active_prot_menu"><a href="#porfolio_menu" data-filter="*">Todos</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".websites">Websites</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".sistEmb">Sistemas Embarcados</a></li>
                                         </ul>
                                     </div>
                                     <div class="portfolio_content">
                                         <div class="row"  id="portfolio">
-                                            <div class="col-xs-12 col-sm-4 appsDevelopment">
+                                            <div class="col-xs-12 col-sm-4 websites">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p1.jpg" alt="title"/>
+                                                    <img src="img/portfolio/site-denarius.PNG" alt="title"/>
                                                     <div>
-                                                        <a href="#">Skull Awesome</a>
-                                                        <span>Subtitle</span>
+                                                        <a href="http://www.denariuscontabil.com.br/">Site Denarius</a>
+                                                        <span>Desenvolvimento do site da Denarius Contabil</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                            <div class="col-xs-12 col-sm-4 sistEmb">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p2.jpg" alt="title"/>
+                                                    <img src="img/portfolio/port-tranca.PNG" alt="title"/>
                                                     <div>
-                                                        <a href="#">Photo Frame</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 responsive">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p3.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Hand Shots</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 webDesign websites">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p4.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Night Abstract</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 appsDevelopment websites">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img//portfolio/p5.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Joy of Independence</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p6.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Night Crawlers</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 responsive">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p7.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Last Motel</a>
-                                                        <span>Subtitle</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p8.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Dirk Road</a>
-                                                        <span>Subtitle</span>
+                                                        <a href="#">Tranca Eletrônica</a>
+                                                        <span>Controle de acesso RFID de um prédio</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-4 websites">
-                                                <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p9.jpg" alt="title"/>
-                                                    <div>
-                                                        <a href="#">Old is Gold</a>
-                                                        <span>Subtitle</span>
+                                                    <div class="portfolio_single_content">
+                                                        <img src="img/portfolio/site-enejr.PNG" alt="title"/>
+                                                        <div>
+                                                            <a href="http://www.denariuscontabil.com.br/">Site ENEjr</a>
+                                                            <span>Edição do site da ENEjr</span>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-            </section-->
+            </section>
             <!-- End portfolio -->
-
 
             <!-- Begin team-->
             <section id="team-section" class="page">
@@ -614,14 +550,13 @@
                 <!-- End page header-->
                 <div class="container">
                     <div id="owl-partners" class="owl-carousel">
-                        <img class="tamanho" src="img/partners/Sitebj.png" alt="img">
-                        <img class="tamanho" src="img/partners/Sitefejesc.png" alt="img">
-                        <img class="tamanho" src="img/partners/Siteufsc.png" alt="img">
+                        <img src="img/partners/Sitebj.png" alt="img" class="partner-center" style="width:190px;">
+                        <img src="img/partners/Sitefejesc.png" alt="img" class="partner-center" style="width:250px;">
+                        <img src="img/partners/Siteufsc.png" alt="img" class="partner-center" style="width:360px;">
 
                 </div>
             </section>
             <!-- End partners -->
-
 
             <!-- Begin social section -->
 			<section id="social-section" class="page">
@@ -652,9 +587,6 @@
 
             </section>
             <!-- End social section -->
-
-
-
 
             <!-- Begin contact section -->
 			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/map-bg.jpg);">
