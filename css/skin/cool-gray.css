@@ -250,7 +250,6 @@ a, a:hover, a:focus {
 @media only screen and (max-width : 767px) {
 
 .navbar-collapse {
-		background-color: #676D75;
 		border-color: #fff !important;
 	}
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
